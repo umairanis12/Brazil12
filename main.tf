@@ -12,11 +12,11 @@ resource "azurerm_resource_group" "branch12" {
   name     = "branch12"
   location = "West Europe"
 }
-resource "azurerm_resource_group" "conflict12" {
-  name     = "conflict12"
+resource "azurerm_resource_group" "conflict 12" {
+  name     = "conflict 12"
   location = "West Europe"
 }
 resource "azurerm_resource_group" "branch002" {
   name     = "branch002"
-  location = "Canada"
+  location = "West Europe"
 }

@@ -8,7 +8,11 @@ variable "rg-tahir12" {
     type        = string
     default     = "rg-ahmed12"
     }
-resource "azurerm_resource_group" "branch133" {
+resource "azurerm_resource_group" "branch12" {
   name     = "branch12"
-  location = "Canada"
+  location = "West Europe"
+}
+resource "azurerm_resource_group" "conflict12" {
+  name     = "conflict12"
+  location = "West Europe"
 }

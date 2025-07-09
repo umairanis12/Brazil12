@@ -12,3 +12,7 @@ resource "azurerm_resource_group" "branch133" {
   name     = "branch12"
   location = "Canada"
 }
+resource "azurerm_resource_group" "saad123" {
+  name     = "saad123"
+  location = "Canada"
+}
